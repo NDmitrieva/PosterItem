@@ -41,7 +41,7 @@ public class PosterManagerTest {
     }
 
     @Test
-    public void shouldCountLast() {
+    public void shouldGetCountAvailable() {
         PosterManager poster = new PosterManager(20);
         PosterItem[] actual = poster.getCountLast();
         PosterItem[] expected = new PosterItem[15];
