@@ -6,8 +6,10 @@ public class PosterItem {
     private String name;
 
     public PosterItem(int id, String genre, String name) {
+        this.id = id;
+        this.genre = genre;
+        this.name = name;
     }
-
 
     public int getId() {
         return id;
